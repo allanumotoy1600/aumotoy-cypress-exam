@@ -1,4 +1,4 @@
-# SauceDemo Website Automation with Cypress JS 📟
+# Test Automation PH Website Automation with Cypress JS 📟
 
 This test automation sample project contains Test Automation PH Website automation using Cypress for testing. It includes tests for Registering and Login features for User and Quiz-Master Roles with the flexibility to run them in headless and headed modes. 
 
@@ -51,7 +51,7 @@ npx cypress open
 ```
 
 ## Features ✨
-- **Login Test**: Automates the login functionality using valid and invalid credentials on the SauceDemo website.
+- **Login Test**: Automates the login functionality using valid and invalid credentials on the Test Automation PH website.
 
 - **Headless Mode**: Run the tests without opening the browser window for faster execution.
 
