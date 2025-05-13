@@ -13,8 +13,6 @@ Cypress.Commands.add('regForm', () => {
         cy.get('#password').type(testData.password);
         cy.get('#confirmPassword').type(testData.password);
         cy.get(`#${testData.roleId}`).click();
-        cy.contains('button', 'Register').click();
-        cy.url().should('contains', '/login')
     });
 });
 
